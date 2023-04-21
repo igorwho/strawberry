@@ -1,6 +1,6 @@
 # 🍓 strawberry
 
-**strawberry** is a personal project to Docker, Go, ChatGPT, Microservices architecture
+**strawberry** is a personal project to practice Docker, Go, ChatGPT, Microservices architecture
 
 ## Build
 
