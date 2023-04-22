@@ -4,14 +4,14 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/devfullcycle/fclx/chatservice/configs"
-	"github.com/devfullcycle/fclx/chatservice/internal/infra/grpc/server"
-	"github.com/devfullcycle/fclx/chatservice/internal/infra/repository"
-	"github.com/devfullcycle/fclx/chatservice/internal/infra/web"
-	"github.com/devfullcycle/fclx/chatservice/internal/infra/web/webserver"
-	"github.com/devfullcycle/fclx/chatservice/internal/usecase/chatcompletion"
-	"github.com/devfullcycle/fclx/chatservice/internal/usecase/chatcompletionstream"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/igorwho/strawberry/chatservice/configs"
+	"github.com/igorwho/strawberry/chatservice/internal/infra/grpc/server"
+	"github.com/igorwho/strawberry/chatservice/internal/infra/repository"
+	"github.com/igorwho/strawberry/chatservice/internal/infra/web"
+	"github.com/igorwho/strawberry/chatservice/internal/infra/web/webserver"
+	"github.com/igorwho/strawberry/chatservice/internal/usecase/chatcompletion"
+	"github.com/igorwho/strawberry/chatservice/internal/usecase/chatcompletionstream"
 	"github.com/sashabaranov/go-openai"
 )
 
